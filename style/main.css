@@ -1,0 +1,106 @@
+/*CONFIURAÇÕES GERAIS*/
+
+@font-face {
+    font-family: 'got';
+    src: url(../fonts/got.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --carbon_black: #1B1B1B;
+    --molten_lava: #750000;
+    --silver: #C4C4C4;
+    --stone_brown: #584c4c;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--silver);
+    min-width: 1000px;
+}
+
+main{
+    background-color: var(--silver);
+    margin: auto;
+    padding-top: 20px;
+    min-width: 1600px;
+    max-width: 2000px;
+}
+
+h2{
+    font-family: 'got', serif;
+    color: var(--carbon_black);
+    padding: 0px 30px;
+    font-weight: normal;
+}
+
+.h2after{
+    padding-top: 20px;
+}
+
+
+
+
+p{
+    padding: 10px 30px;
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+img{
+    display: block;
+    margin: auto;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+    padding: 0px 20px;
+}
+
+figcaption{
+    font-size: 1.2em;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: var(--molten_lava);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+strong{
+    color: var(--molten_lava);
+}
+
+em{
+    color: var(--molten_lava);
+}
+
+
+/*CONFIURAÇÕES HOME*/
+
+.homepage-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+
+/* CONFIGURAÇÕES HISTORIA */
+
+.img500{
+    max-height: 500px;
+}
+
+
+/* LINHA DO TEMPO */
+

@@ -1,0 +1,73 @@
+@import url(main.css);
+
+/*CONFIURAÇÕES DOS COMPONENTES DO HEADER*/
+header{
+    display: flex;
+    position: relative;
+    text-align: center; 
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--carbon_black);
+    min-height: 100px;
+    align-items: center;
+}
+
+.logo-canto {
+    position: absolute;
+    right: 10px;
+    bottom: 0; 
+    height: 110px;
+    filter: none;
+}
+
+header > h1{
+    font-size: 2em;
+    font-family: 'got', serif;
+    color: #b22222;
+    text-align: center;
+}
+
+
+/*CONFIURAÇÕES DOS COMPONENTES DO NAV*/
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: var(--molten_lava);
+    gap: 10px;
+    min-height: 60px;
+    align-items: center;
+}
+
+nav > a {
+    font-weight: 700; 
+    font-size: 1em;
+    font-family: 'got', serif;
+    color: var(--silver);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.1s, color 0.3s; 
+    
+}
+
+nav > a:hover {
+    background-color: var(--carbon_black);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+    border-radius: 3px;
+    color: white; 
+    text-decoration: none;
+}
+    
+
+/*CONFIURAÇÕES DOS COMPONENTES DO FOOTER*/
+footer{
+    background-color: var(--carbon_black);
+    color: var(--silver);
+    text-align: center;
+    padding: 1px;
+    font-size: 0.8em;
+}
+
+footer a{
+    color: var(--silver);
+    text-decoration: underline;
+}
